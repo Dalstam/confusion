@@ -10,7 +10,7 @@ module.exports = function(a,b,c,next) {
     else
          return next(null, {
             root1:function() {
-                return (-b - Math.sqrt(disc(a,b,c)))/(2*a);
+                return (-b - Math.sqrt(disc(a,b,c)))/(1*a);
             },
             root2:function() {
                 return (-b + Math.sqrt(disc(a,b,c)))/(2*a);
